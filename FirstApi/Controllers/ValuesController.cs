@@ -52,6 +52,7 @@ namespace FirstApi.Controllers
         public ActionResult<responseResult> Subtract([FromForm]Param param)
         {
             return new responseResult() { result = (param.num1 - param.num2).ToString() };
+
         }
 
         // PUT: api/Values/5
@@ -66,6 +67,12 @@ namespace FirstApi.Controllers
         public ActionResult<responseResult> Delete(int id)
         {
             return new responseResult() { result = "true" };
+
+        }
+
+        private void test()
+        {
+            var ts = Guid.NewGuid().ToString("N");
         }
     }
 }
