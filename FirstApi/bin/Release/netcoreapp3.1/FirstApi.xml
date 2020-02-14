@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FirstApi</name>
+    </assembly>
+    <members>
+        <member name="M:FirstApi.Controllers.ValuesController.Sum(System.Int32,System.Int32)">
+            <summary>
+            两个整数相加
+            </summary>
+            <param name="num1">第一个整数</param>
+            <param name="num2">第二个整数</param>
+            <returns>累加结果</returns>
+        </member>
+        <member name="M:FirstApi.Controllers.ValuesController.Subtract(FirstApi.Param)">
+            <summary>
+            两数相减
+            </summary>
+            <param name="param">参数</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
